@@ -8,11 +8,6 @@
    font-style: normal;
 }
 
-body {
-   background-image: url("../imagens/fundo.jpeg");
-   background-attachment: fixed;
-}
-
 h1#index {
    font-family: "currency";
    color: #394E37;
@@ -41,8 +36,15 @@ div#index {
 img {
    width: 120px;
    left: 50%;
-   top: 57%;
+   top: 59%;
    transform: translate(-50%, -50%);
    position: absolute;
 
 }
+
+body {
+   background-image: url("../imagens/fundo.jpeg");
+   background-attachment: fixed;
+}
+
+
