@@ -75,15 +75,25 @@ img {
    padding: 5px;
 }
 /*=======================================================*/
-.nav {
+.nav-l {
    width: 49%;
    box-sizing: border-box;
    padding-top: 70px;
+   padding-right: 85px;
    display: inline-flex;
-   justify-content: center;
    font-size: 2em;
+   justify-content: right;
 }
 
+.nav-r {
+   width: 49%;
+   box-sizing: border-box;
+   padding-top: 70px;
+   padding-left: 35px;
+   display: inline-flex;
+   font-size: 2em;
+   justify-content: left;
+}
 .login {
    height: 100vh;
    display:flex;
@@ -139,7 +149,7 @@ img {
    min-height: 300px;
    width: 100% ;
    box-sizing: border-box;
-   padding: 32px;
+   padding: 45px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -151,6 +161,7 @@ img {
    display: inline-flex;
    justify-content: center;
    font-size: 2em;
+   padding: 32px;
 }
 
 .link-recup {
