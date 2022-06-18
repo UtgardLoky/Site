@@ -32,6 +32,10 @@ strong {
    font: bold;
 }
 
+input::placeholder {
+   color: white;
+}
+
 
 /*CSS INDEX*/
 /*=======================================================*/
@@ -96,6 +100,11 @@ img {
    flex-direction: column;
    align-items: center;
 }
+
+.login-form {
+   width: 320px;
+}
+
 .login-input{
    height: 48px;
    width: 100%;
@@ -136,6 +145,17 @@ img {
    align-items: center;
 }
 
+.nav-recup {
+   width: 49%vw;
+   box-sizing: border-box;
+   display: inline-flex;
+   justify-content: center;
+   font-size: 2em;
+}
+
+.link-recup {
+   font-size: .3em;
+}
 
 /*
 input:empty {
