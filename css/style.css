@@ -4,10 +4,38 @@
 @font-face {
    font-family: "currency";
    src: url("../fonts/CURRENCY.TTF") format("truetype");
+   font-family: "Orkney Bold Italic";
+   src: url("../fonts/Orkney\ Bold\ Italic.ttf") format("truetype");
+   font-family: "Orkney Medium";
+   src: url("../fonts/Orkney\ Medium.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
 
+html {
+   font-family: "Orkney Medium";
+   color: white;
+
+}
+
+body {
+   background-image: url("../imagens/fundo.jpeg");
+   background-attachment: fixed;
+}
+
+a {
+   color: inherit;
+}
+
+strong {
+   font-family: "Orkney Bold Italic";
+   font-style: italic;
+   font: bold;
+}
+
+
+/*CSS INDEX*/
+/*=======================================================*/
 h1#index {
    font-family: "currency";
    color: #394E37;
@@ -33,20 +61,82 @@ div#index {
    transform: translate(-50%, -50%);
    background-color: #F2F3D9;
 }
+
 img {
    width: 120px;
    left: 50%;
    top: 57%;
    transform: translate(-50%, -50%);
    position: absolute;
-
+}
+/*=======================================================*/
+.nav {
+   width: 49%;
+   box-sizing: border-box;
+   padding-top: 70px;
+   display: inline-flex;
+   justify-content: center;
+   font-size: 2em;
 }
 
-body {
-   background-image: url("../imagens/fundo.jpeg");
-   background-attachment: fixed;
+.login {
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.login-container{
+   min-height: 100px;
+   width: 300px;
+   box-sizing: border-box;
+   padding: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.login-input{
+   height: 48px;
+   width: 100%;
+   color: white;
+   background: transparent;
+   box-sizing: border-box;
+   padding-left: 8px;
+   border: unset;
+   outline: none;
 }
 
+.input-line {
+   height: 1px;
+   width: 100%;
+   margin-bottom: 16px;
+   display: block;
+   background-color: white;   
+}
+
+.login-button{
+   height: 48px;
+   min-width: 300px;
+   background-color: #360D68;
+   color: white;
+   font-size: 2em;
+   font-weight: bold;
+   border: unset;
+   border-radius: 30px;
+}
+
+.button-container {
+   min-height: 300px;
+   width: 100% ;
+   box-sizing: border-box;
+   padding: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+/*
 input:empty {
    opacity: 0.1;
 }

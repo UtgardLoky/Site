@@ -17,27 +17,35 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="login.html"> login</a>
-            <a href="cadastro.html">Cadastro</a>
+        <nav class="nav">
+            <a href="login.html" class="link-nav"> login</a>
+        </nav>
+        <nav class="nav">
+            <a href="cadastro.html" class="link-nav
+            ">Cadastro</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <form action="index.html" id="login">
-                <input type="text"             placeholder="Nome de Usuário">
+    <main class="login">
+        <div class="login-container">
+            <form class="login-form" action="index.html" id="login">
+                <input class="login-input" type="text"             placeholder="Nome de Usuário">
 
-                <input type="password" placeholder="Senha">
+                <span class="input-line" ></span>
+
+                <input class="login-input" type="password" placeholder="Senha">
+
+                <span class="input-line" ></span>
+
             </form>
         </div>
         <div>
             <a href="">ESQUECI MINHA SENHA</a>
 
-            <a href="">ESQUECI MEU NOME DE USUÁRIO</a>
+            <a href="">ESQUECI MEU USUÁRIO</a>
 
         </div>
-        <div>
-            <button form="login" type="submit">ENTRAR</button>
+        <div class="button-container">
+            <button class="login-button" form="login" type="submit">ENTRAR</button>
         </div>        
 
     </main>
