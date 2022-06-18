@@ -16,46 +16,31 @@
 
 </head>
 <body>
-    <div>
-        <h1>pensa em uma frase grande </h1>
-    </div>
+    <header>
+        <nav>
+            <a href="login.html"> login</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <form action="index.html" id="login">
+                <input type="text"             placeholder="Nome de Usuário">
 
-<style>
-    h1 {
-    font-size: 15em;
-    }
-    .elem {
-        background: blueviolet;
-        width: 300px;
-        height: 150px;
-        opacity: 0.1;
-    }
+                <input type="password" placeholder="Senha">
+            </form>
+        </div>
+        <div>
+            <a href="">ESQUECI MINHA SENHA</a>
 
-    input:empty {
-        opacity: 0.1;
-    }
+            <a href="">ESQUECI MEU NOME DE USUÁRIO</a>
 
-    input:focus {
-        opacity: 1;
-    }
+        </div>
+        <div>
+            <button form="login" type="submit">ENTRAR</button>
+        </div>        
 
-    input:not(:placeholder-shown) {
-        opacity: 1;
-    }
-
-
-    .elem:hover {
-        opacity: 1;
-    }
-   
-      
-</style>
-
-<div class="elem"></div>
-<input  type="text" placeholder="Nome Completo">
-
-<h1 color=“blue”>Título</h1>
-
+    </main>
 
 </body>
 </html>

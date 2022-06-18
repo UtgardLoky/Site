@@ -47,4 +47,14 @@ body {
    background-attachment: fixed;
 }
 
+input:empty {
+   opacity: 0.1;
+}
 
+input:focus {
+   opacity: 1;
+}
+
+input:not(:placeholder-shown) {
+   opacity: 1;
+}
