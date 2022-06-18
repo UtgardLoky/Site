@@ -44,6 +44,7 @@ h1#index {
    transform: translate(-50%, -50%);
    left: 50%;
    top: 35%;
+   padding-bottom: 35px;
 }
 
 main#index {
@@ -68,6 +69,7 @@ img {
    top: 57%;
    transform: translate(-50%, -50%);
    position: absolute;
+   padding: 5px;
 }
 /*=======================================================*/
 .nav {
