@@ -12,12 +12,12 @@
    font-style: normal;
 }
 
-html {
+/*html {
    font-family: "Orkney Medium";
    color: white;
 
 }
-
+*/
 body {
    background-image: url("../imagens/fundo.jpeg");
    background-attachment: fixed;
