@@ -2,12 +2,12 @@
 
 
 @font-face {
-   font-family: "currency";
-   src: url("../fonts/CURRENCY.TTF") format("truetype");
    font-family: "Orkney Bold Italic";
    src: url("../fonts/Orkney\ Bold\ Italic.ttf") format("truetype");
    font-family: "Orkney Medium";
    src: url("../fonts/Orkney\ Medium.ttf") format("truetype");
+   font-family: "currency";
+   src: url("../fonts/CURRENCY.TTF") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
@@ -79,7 +79,7 @@ img {
    width: 49%;
    box-sizing: border-box;
    padding-top: 150px;
-   padding-right: 70px;
+   padding-right: 75px;
    display: inline-flex;
    font-size: 2em;
    justify-content: right;
@@ -166,7 +166,7 @@ img {
 }
 
 .link-recup {
-   font-size: .4em;
+   font-size: .3em;
 }
 
 /*
