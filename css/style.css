@@ -1,19 +1,24 @@
 @charset "UTF-8";
 
+@font-face {
+   font-family: "orkneybolditalic";
+   src: url("../fonts/OrkneyBolditalic.ttf") format("truetype");
+}
 
 @font-face {
-   font-family: "Orkney Bold Italic";
-   src: url("../fonts/Orkney\ Bold\ Italic.ttf") format("truetype");
-   font-family: "Orkney Medium";
-   src: url("../fonts/Orkney\ Medium.ttf") format("truetype");
+   font-family: "OrkneyMedium";
+   src: url("../fonts/orkneymedium.ttf") format("truetype");
+}
+
+@font-face {
    font-family: "currency";
-   src: url("../fonts/CURRENCY.TTF") format("truetype");
+   src: url("../fonts/currency.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
 
 html {
-   font-family: "Orkney Medium";
+   font-family: "orkneymedium";
    color: white;
 }
 
@@ -27,7 +32,7 @@ a {
 }
 
 strong {
-   font-family: "Orkney Bold Italic";
+   font-family: "orkneybolditalic";
    font-style: italic;
    font: bold;
 }
