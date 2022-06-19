@@ -86,7 +86,7 @@ img {
 .nav-l {
    width: 49%;
    box-sizing: border-box;
-   padding-top: 140px;
+   padding-top: 5%;
    padding-right: 82px;
    display: inline-flex;
    font-size: 2em;
@@ -96,7 +96,7 @@ img {
 .nav-r {
    width: 49%;
    box-sizing: border-box;
-   padding-top: 140px;
+   padding-top: 5%;
    padding-left: 35px;
    display: inline-flex;
    font-size: 2em;
@@ -104,7 +104,7 @@ img {
 }
 
 .login {
-   margin-top: 75px;
+   margin-top: 90px;
    display:flex;
    justify-content: center;
    align-items: center;
