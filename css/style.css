@@ -29,16 +29,16 @@ body {
 
 a {
    color: inherit;
-   text-decoration: none;
+   text-decoration: ;
 }
-/*
+
 strong {
    font-family: "orkneybolditalic";
    font-style: italic;
    font: bold;
    text-decoration: underline;
 }
-*/
+
 input::placeholder {
    color: white;
 }
