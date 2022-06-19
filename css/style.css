@@ -41,6 +41,7 @@ strong {
 
 input::placeholder {
    color: white;
+   font-family: "orkneymedium";
 }
 
 
@@ -85,7 +86,7 @@ img {
 .nav-l {
    width: 49%;
    box-sizing: border-box;
-   padding-top: 150px;
+   padding-top: 140px;
    padding-right: 82px;
    display: inline-flex;
    font-size: 2em;
@@ -95,7 +96,7 @@ img {
 .nav-r {
    width: 49%;
    box-sizing: border-box;
-   padding-top: 70px;
+   padding-top: 140px;
    padding-left: 35px;
    display: inline-flex;
    font-size: 2em;
