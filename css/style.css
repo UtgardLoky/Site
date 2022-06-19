@@ -78,8 +78,8 @@ img {
 .nav-l {
    width: 49%;
    box-sizing: border-box;
-   padding-top: 70px;
-   padding-right: 85px;
+   padding-top: 150px;
+   padding-right: 70px;
    display: inline-flex;
    font-size: 2em;
    justify-content: right;
@@ -94,8 +94,9 @@ img {
    font-size: 2em;
    justify-content: left;
 }
+
 .login {
-   height: 100vh;
+   margin-top: 75px;
    display:flex;
    justify-content: center;
    align-items: center;
@@ -165,7 +166,7 @@ img {
 }
 
 .link-recup {
-   font-size: .3em;
+   font-size: .4em;
 }
 
 /*
