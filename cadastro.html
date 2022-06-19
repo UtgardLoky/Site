@@ -16,34 +16,48 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
+        <nav class="nav-l">
             <a href="login.html" class="link-nav"> login</a>
         </nav>
-        <nav class="nav">
+        <nav class="nav-r">
             <a href="cadastro.html" class="link-nav
             ">Cadastro</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <form action="login.html">
-                <input type="text" placeholder="Nome Completo">
+    <main class="login">
+        <div class="login-container">
+            <form class="login-form" action="login.html">
+                <input class="login-input" type="text" placeholder="Nome Completo">
+
+                <span class="input-line" ></span>
+
                 
-                <input type="text" placeholder="Nome de Usuário"> 
+                <input class="login-input" type="text" placeholder="Nome de Usuário"> 
+
+                <span class="input-line" ></span>
+
+                <input class="login-input" type="email" placeholder="E-mail">
+
+                <span class="input-line" ></span>
                 
-                <input type="email" placeholder="E-mail">
+                <input class="login-input" type="email" placeholder="Comfirme o E-mail">
 
-                <input type="email" placeholder="Comfirme o E-mail">
+                <span class="input-line" ></span>
 
-                <input type="password" placeholder="Senha">
+                <input class="login-input" type="password" placeholder="Senha">
 
-                <input type="password" placeholder="Confirme a Senha">
+                <span class="input-line" ></span>
+
+                <input class="login-input" type="password" placeholder="Confirme a Senha">
+
+                <span class="input-line" ></span>
+
                 <footer>
                     <input type="checkbox" name="termo" value="1"> 
                     <label for="termo">Concordo com os <a href="#"><strong>Termos de Uso</strong></a> do SuperÁvit</label> 
                 </footer>
-                <div>
-                    <button type="submit">Cadastrar</button>
+                <div class="button-container">
+                    <button class="login-button" type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>  
