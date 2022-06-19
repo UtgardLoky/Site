@@ -44,6 +44,18 @@ input::placeholder {
    font-family: "orkneymedium";
 }
 
+input:empty {
+   opacity: 0.3;
+}
+
+input:focus {
+   opacity: 1;
+}
+
+input:not(:placeholder-shown) {
+   opacity: 1;
+}
+
 
 /*CSS INDEX*/
 /*=======================================================*/
@@ -177,15 +189,3 @@ img {
    font-size: .3em;
 }
 
-/*
-input:empty {
-   opacity: 0.1;
-}
-
-input:focus {
-   opacity: 1;
-}
-
-input:not(:placeholder-shown) {
-   opacity: 1;
-}
