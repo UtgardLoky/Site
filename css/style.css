@@ -29,12 +29,15 @@ body {
 
 a {
    color: inherit;
+   text-decoration: none;
+
 }
 
 strong {
    font-family: "orkneybolditalic";
    font-style: italic;
    font: bold;
+   text-decoration: underline;
 }
 
 input::placeholder {
