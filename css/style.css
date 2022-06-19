@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
 @font-face {
-   font-family: "currency";
-   src: url("../fonts/currency.ttf") format("truetype");
+   font-family: "orkneybolditalic";
+   src: url("../fonts/OrkneyBolditalic.ttf") format("truetype");
 }
 
 @font-face {
-   font-family: "orkneybolditalic";
-   src: url("../fonts/OrkneyBolditalic.ttf") format("truetype");
+   font-family: "currency";
+   src: url("../fonts/currency.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
 }
 
 @font-face {
@@ -27,8 +29,7 @@ body {
 
 a {
    color: inherit;
-   text-decoration: ;
-
+   text-decoration: none;
 }
 
 strong {
@@ -46,7 +47,7 @@ input::placeholder {
 /*CSS INDEX*/
 /*=======================================================*/
 h1#index {
-   font-family: "currency" !important;
+   font-family: "currency" ;
    color: #394E37;
    font-size: clamp( 3em, 12vw , 7em );
    position: absolute;
