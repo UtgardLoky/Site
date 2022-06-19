@@ -4,12 +4,12 @@
    font-family: "orkneybolditalic";
    src: url("../fonts/OrkneyBolditalic.ttf") format("truetype");
 }
-/*
+
 @font-face {
    font-family: "orkneymedium";
    src: url("../fonts/orkneymedium.ttf") format("truetype");
 }
-*/
+
 @font-face {
    font-family: "currency";
    src: url("../fonts/CURRENCY.TTF") format("truetype");
