@@ -59,7 +59,7 @@ input:not(:placeholder-shown) {
 
 /*CSS INDEX*/
 /*=======================================================*/
-h1#index {
+.h1-index {
    font-family: "currency";
    color: #394E37;
    font-size: clamp( 3em, 12vw , 7em );
@@ -70,13 +70,13 @@ h1#index {
    padding-bottom: 35px;
 }
 
-main#index {
+.main-index {
    width: 100vw;
    height: 100vh;
    position: relative; 
 }
 
-div#index {
+.div-index {
    width: 100vw;
    height: 300px;
    position: absolute;
@@ -189,3 +189,6 @@ img {
    font-size: .3em;
 }
 
+.termo-container {
+   padding-top: 15px;
+}
