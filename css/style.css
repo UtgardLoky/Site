@@ -6,7 +6,7 @@
 }
 
 @font-face {
-   font-family: "OrkneyMedium";
+   font-family: "orkneymedium";
    src: url("../fonts/orkneymedium.ttf") format("truetype");
 }
 
@@ -18,7 +18,6 @@
 }
 
 html {
-   font-family: "orkneymediums";
    color: white;
 }
 
@@ -29,7 +28,7 @@ body {
 
 a {
    color: inherit;
-   text-decoration: none;
+   text-decoration: ;
 }
 
 strong {
@@ -47,7 +46,7 @@ input::placeholder {
 /*CSS INDEX*/
 /*=======================================================*/
 h1#index {
-   font-family: "currency" ;
+   font-family: "currency";
    color: #394E37;
    font-size: clamp( 3em, 12vw , 7em );
    position: absolute;
